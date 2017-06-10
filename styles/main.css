@@ -43,6 +43,52 @@ h1{
   justify-content: space-around;
 }
 
+#info {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 30px;
+}
 
-#info{
+#info input {
+  margin-top: 15px;
+  height: 40px;
+  width: 335px;
+  margin-bottom: 45px;
+}
+
+.name {
+  width: 50%;
+}
+
+.email {
+  width: 50%;
+}
+
+.password {
+  width: 50%;
+}
+
+.conpassword {
+  width: 50%;
+}
+
+.form-group {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+button {
+  height: 40px;
+  width: 335px;
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 3px;
+  margin-left: 95px;
+  font-size: 14px;
+}
+
+#file {
+  margin-top: 20px;
+  font-size: 14px;
 }
